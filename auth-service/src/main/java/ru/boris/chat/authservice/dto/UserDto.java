@@ -8,7 +8,7 @@ public record UserDto(
     String email)
 {
     public UserDto {
-        if (username == null || username.isBlank()) { throw new ValidationException("Username не может быть null");
+        if (username == null || username.isBlank()) { throw new ValidationException("username is required");
         }
     }
 }
