@@ -1,6 +1,6 @@
 package ru.boris.chat.chatservice.dto;
 
-import ru.boris.chat.common.enums.MessageType;
+import ru.boris.chat.chatservice.enums.MessageType;
 
 import java.time.Instant;
 
