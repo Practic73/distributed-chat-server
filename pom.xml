@@ -10,7 +10,6 @@
   <name>distributed-chat-server</name>
   <url>http://maven.apache.org</url>
     <modules>
-        <module>common-lib</module>
         <module>auth-service</module>
         <module>chat-service</module>
     </modules>
